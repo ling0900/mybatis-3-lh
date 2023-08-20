@@ -84,6 +84,7 @@ public class PoolState {
 
   @Override
   public synchronized String toString() {
+    // 朴实无华的打印连接池的一些信息
     StringBuilder builder = new StringBuilder();
     builder.append("\n===CONFIGURATION==============================================");
     builder.append("\n jdbcDriver                     ").append(dataSource.getDriver());
