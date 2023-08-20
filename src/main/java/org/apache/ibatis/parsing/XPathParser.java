@@ -259,6 +259,7 @@ public class XPathParser {
       });
       return builder.parse(inputSource);
     } catch (Exception e) {
+      // 如果配置文件的格式不对，抛出异常。
       throw new BuilderException("Error creating document instance.  Cause: " + e, e);
     }
   }
