@@ -19,6 +19,7 @@ import java.util.concurrent.locks.ReadWriteLock;
 
 /**
  * SPI for cache providers.
+ * 拓展性
  * <p>
  * One instance of cache will be created for each namespace.
  * <p>
